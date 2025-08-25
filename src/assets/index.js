@@ -1,8 +1,8 @@
 import logo from "./logo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import portrait from "./portrait.png"
-import phong_resume from "./phongle_resume.pdf"
+import portrait from "./portrait.jpg"
+import justin_resume from "./Justin_Chen_Resume.pdf"
 import appian from "./appian_logo.png"
 import aipi from "./aipi_logo.png"
 import uva_cs from "./uva_cs_logo.png"
@@ -12,7 +12,7 @@ import game_logo from "./game_logo.png"
 import gradebuddy_logo from "./gradebuddy_logo.png"
 import joseweb_thumbnail from "./joseweb_thumbnail.png"
 import beach_portrait from "./portrait_beach.jpg"
-import ellucian_logo from "./ellucian_logo.png"
+import gdms_logo from "./gdms_logo.jpg"
 
 import gradebuddy1 from "./projectpics/gradebuddy1.png"
 import gradebuddy2 from "./projectpics/gradebuddy2.png"
@@ -62,7 +62,7 @@ export {
     menu,
     close,
     portrait,
-    phong_resume,
+    justin_resume,
     appian,
     aipi,
     uva_cs,
@@ -72,7 +72,7 @@ export {
     gradebuddy_logo,
     joseweb_thumbnail,
     beach_portrait,
-    ellucian_logo,
+    gdms_logo,
     nutrifitLogo,
     gradebuddy,
     simplisplit,

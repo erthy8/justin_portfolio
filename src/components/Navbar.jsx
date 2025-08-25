@@ -44,9 +44,9 @@ const Navbar = ({ isLoading }) => {
     let newActive = "";
     if (
       document.getElementById("about").getBoundingClientRect().y - 100 > 0 &&
-      active != "phong"
+      active != "justin"
     ) {
-      setActive("phong");
+      setActive("justin");
     }
     navLinks.forEach((link) => {
       const section = document.getElementById(link.id);
@@ -107,10 +107,10 @@ const Navbar = ({ isLoading }) => {
           ></img>
           <p
             className={`${
-              active === "phong" ? "text-violet-500" : "text-white"
+              active === "justin" ? "text-violet-500" : "text-white"
             } text-[1.25rem] font-bold cursor-pointer `}
           >
-            Phong Le
+            Justin Chen
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

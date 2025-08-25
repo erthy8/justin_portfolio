@@ -27,42 +27,42 @@ const experiences = [
     iconBg: "white",
     date: "Summer 2025",
     points: [
-      "Contributed to a core infrastructure team streamlining Infrastructure-as-Code provisioning, networking services, and Okta",
-      "Integrated Teleport, a secure access platform, to enable compliant and efficient access management to AWS and customer apps",
+      "Deployed and maintained production-grade Kubernetes clusters in AWS using Python, Terraform, Go and Helm",
+      "Developed and fine-tuned a Retrieval-Augmented Generation (RAG) AI agent leveraging a custom knowledge base to interpret code and automatically generate context-aware update recommendations",
     ],
   },
   {
     title: "Software Engineer Intern",
-    company_name: "Ellucian",
-    icon: assets.ellucian_logo,
+    company_name: "General Dynamics Mission Systems",
+    icon: assets.gdms_logo,
     iconBg: "white",
-    date: "Summer 2024 - Spring 2025",
+    date: "Summer 2024",
     points: [
-      "Engineered full-stack Proof of Concepts, demonstrating feasibility of proposed enterprise solutions",
-      "Developed an AI-powered writing assistant serving higher education institutions",
+      "Engineered and sustained Java, C++, and Python software for US Navy data collection and transmission systems",
+      "Designed a Bash script to verify media (drive partitioning, encryption, filesystems) on thousands of drives to test Johns Hopkins research data",
     ],
   },
   {
-    title: "Undergraduate Researcher",
-    company_name: "UVA Computer Science",
+    title: "Computer Science Instructor",
+    company_name: "J&J Camp",
     icon: assets.uva_cs,
     iconBg: "white",
-    date: "Fall 2023",
+    date: "Year-Round 2021-2023",
     points: [
       "Worked closely with Professor Sebastian Elbaum to fine-tune Meta Llama2 LLM, automating natural language to regex conversions",
     ],
   },
-  {
-    title: "Software Developer Intern",
-    company_name: "AiPi Solutions",
-    icon: assets.aipi,
-    iconBg: "#FFFF",
-    date: "Summer 2023",
-    points: [
-      "Led a team of 5 interns to train OpenAI’s 4o LLM, automating the editing process of Non-Disclosure Agreements",
-      "Built and deployed a web application using React and Vercel, allowing model integration into client’s workflow",
-    ],
-  },
+  // {
+  //   title: "Software Developer Intern",
+  //   company_name: "AiPi Solutions",
+  //   icon: assets.aipi,
+  //   iconBg: "#FFFF",
+  //   date: "Summer 2023",
+  //   points: [
+  //     "Led a team of 5 interns to train OpenAI’s 4o LLM, automating the editing process of Non-Disclosure Agreements",
+  //     "Built and deployed a web application using React and Vercel, allowing model integration into client’s workflow",
+  //   ],
+  // },
 ];
 
 const projects = [

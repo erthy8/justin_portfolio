@@ -30,7 +30,7 @@ const Landing = ({ isLoading }) => {
           <span className="font-bold text-6xl bg-gradient-to-r from-[#4d52ff] to-[#cf3dfd] text-transparent bg-clip-text ">
             <Typewriter
               options={{
-                strings: ["Phong"],
+                strings: ["Justin"],
                 autoStart: true,
                 loop: true,
                 delay: 320,
