@@ -45,11 +45,11 @@ const experiences = [
   {
     title: "Computer Science Instructor",
     company_name: "J&J Camp",
-    icon: assets.uva_cs,
+    icon: assets.jj_logo,
     iconBg: "white",
     date: "Year-Round 2021-2023",
     points: [
-      "Worked closely with Professor Sebastian Elbaum to fine-tune Meta Llama2 LLM, automating natural language to regex conversions",
+      "Designed and delivered programming curriculum to students concentrated in Python",
     ],
   },
   // {
@@ -67,11 +67,11 @@ const experiences = [
 
 const projects = [
   {
-    name: "GradeBuddy",
-    type: { name: "Web Application", color: "lime-300" },
-    image: assets.gradebuddy_logo,
+    name: "DocuBot",
+    type: { name: "AI Agent RAG", color: "lime-300" },
+    image: assets.docubot_logo,
     description:
-      "An auto-grader tool built for students and faculty to automate manual grading of open-ended answers based on a rubric",
+      "An AI RAG agent based on a custom knowledge base that analyzes merge requests and automatically updates documentation",
     photos: assets.gradebuddy,
     bullets: [
       "Dynamic question inputting (prompt, student-answer, max points, and rubric)",
@@ -79,19 +79,19 @@ const projects = [
       "Aggregates total score for an assignment after grading individual questions"
     ],
     skills: [
-      { name: "React.js", color: "cyan" },  
-      { name: "Django", color: "emerald" },
-      { name: "Firebase DB", color: "orange" },
+      { name: "Python", color: "yellow" },
+      { name: "Amazon Bedrock", color: "cyan" },  
+      { name: "Amazon Kendra", color: "emerald" },
+      { name: "YAML", color: "red" },
     ],
-    link: "https://github.com/brandonistfan/GradeBuddy",
-    website: "https://www.gradebuddy.app",
+    link: "https://drive.google.com/file/d/1IWFoHSavw72UZMTCQAfJJbTihLk59BIV/view?usp=sharing",
   },
   {
-    name: "SimpliSplit",
-    type: { name: "Mobile Application", color: "blue-400" },
-    image: assets.ss_logo,
+    name: "Helping Hands",
+    type: { name: "Web Application", color: "blue-400" },
+    image: assets.hh_logo,
     description:
-      "A mobile app to streamline bill splitting by allowing users to scan a receipt, match friends to receipt items, and send Venmo requests accordingly with one click",
+      "A computer vision application that creates a virtual mouse through intuitive hand motion tracking.",
     photos: assets.simplisplit,
     bullets: [
       "Utilized tesseract for receipt scanning (OCR)",
@@ -100,21 +100,20 @@ const projects = [
       "Firebase for user account database storage",
     ],
     skills: [
-      { name: "React Native", color: "green" },
+      { name: "OpenCV", color: "green" },
       { name: "Python", color: "yellow" },
-      { name: "Flask", color: "violet" },
-      { name: "Firebase DB", color: "orange" },
+      { name: "MediaPipe", color: "violet" },
 
     ],
     link: null,
     video: "path/to/video1.mp4",
   },
   {
-    name: "NutriFit",
+    name: "Just Dance Dance Revolution",
     type: { name: "Web Application", color: "blue-400" },
-    image: assets.nutrifitLogo,
+    image: assets.jddr_logo,
     description:
-      "A web app that helps users achieve their fitness or dietary goals by recommending grocery products based on nutrient compatibility and personalized ratings.",
+      "Display a precisely generated dance overlay from a YouTube dance video to help users learn how to dance with accuracy ratings and real-time analysis.",
     photos: assets.nutrifit,
     bullets: [
       "Allows users to select goals like bulking, cutting, keto, or diabetic and recommends products accordingly",
@@ -123,54 +122,60 @@ const projects = [
       "Enables users to save selected items for later comparison and planning",
     ],
     skills: [
-      { name: "React.js", color: "cyan" },
-      { name: "Express.js", color: "emerald" },
-      { name: "TypeScript", color: "blue" },
-      { name: "Kroger API", color: "orange" },
-      { name: "Nutritionix API", color: "yellow" },
+      { name: "cv2", color: "cyan" },
+      { name: "Python", color: "yellow" },
+      { name: "Pandas", color: "blue" },
+      { name: "SQL", color: "orange" },
+      { name: "MediaPipe", color: "yellow" },
+      { name: "Google API", color: "orange" },
     ],
     link: "https://github.com/phongo1/NutriFit",
     video: "path/to/video.mp4", // Replace with actual video path
   },
   {
-    name: "Phobot",
-    type: { name: "Discord Bot", color: "[#566af6]" },
-    image: assets.pho_icon,
+    name: "Connective",
+    type: { name: "Website", color: "[#566af6]" },
+    image: assets.connective_logo,
     description:
-      "A multifaceted Discord Bot that can run autonomously, pull game data, send customized emails, search google, tell random jokes, and more",
+      "A social media website to connect students enrolled in the same class with each other to share resources and ask questions.",
     photos: assets.phobot,
     bullets: [
       "Built with Discord API, Riot API, googlesearch API, and BeautifulSoup for webscraping",
     ],
     skills: [
-      { name: "Python", color: "yellow" },
-      { name: "Discord API", color: "blue" },
-      { name: "Google API", color: "orange" },
+      { name: "HTML/CSS", color: "cyan" },,
+      { name: "Javascript", color: "yellow" },
+      { name: "Flask", color: "blue" },
+      { name: "React.js", color: "orange" },
+      { name: "SQL", color: "yellow" },
     ],
     link: "https://github.com/phongo1/discord_bot",
     video: "path/to/video1.mp4",
   },
   {
-    name: "Fantasy Game",
-    type: { name: "2D - Arena Game", color: "emerald-400" },
-    image: assets.game_logo,
+    name: "BandMaker",
+    type: { name: "Discord Bot", color: "emerald-400" },
+    image: assets.bandmaker_logo,
     description:
-      "A 2D RPG inspired shooter-platformer game built with pygame and UVAGE (UVA game engine)",
+      "A commissioned program displayed on a Discord bot that leverages AI, pattern recognition algorithms, and SQL database querying, to perform comprehensive analysis on stock market data",
     photos: assets.game,
     bullets: ['Final project for CS 1110 (Intro to Programming)'],
     skills: [
       { name: "Python", color: "yellow" },
-      { name: "Pygame", color: "red" },
+      { name: "SQL", color: "green" },
+      { name: "sckit-learn", color: "blue" },
+      { name: "PyPlot", color: "red" },
+      { name: "Discord API", color: "orange" },
     ],
     link: "https://github.com/phongo1/Fantasy-Shooter-Game-",
     video: "https://www.youtube.com/watch?v=FLIzubXNmyo&ab_channel=PhongLe",
   },
   {
-    name: "Jose's Website",
-    type: { name: "Website", color: "lime-300" },
-    image: assets.joseweb_thumbnail,
+    name: "Dream Weaver",
+    type:  { name: "Web Application", color: "blue-400" },
+    image: assets.dreamweaver_logo,
     description:
-      "A commisioned website for Jose, an author publishing a book called \"Queen of Heaven\"",
+      "TBD",
     photos: assets.website,
     bullets: [ 'A simple website to showcase the book and author - built with HTML/CSS/JS and deployed with Github Pages' ],
     skills: [

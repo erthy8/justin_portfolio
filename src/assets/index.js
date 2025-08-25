@@ -5,13 +5,15 @@ import portrait from "./portrait.jpg"
 import justin_resume from "./Justin_Chen_Resume.pdf"
 import appian from "./appian_logo.png"
 import aipi from "./aipi_logo.png"
-import uva_cs from "./uva_cs_logo.png"
-import ss_logo from "./ss_logo.png"
-import pho_icon from "./pho_icon.jpg"
-import game_logo from "./game_logo.png"
-import gradebuddy_logo from "./gradebuddy_logo.png"
+import jj_logo from "./J&J_logo.png"
+import hh_logo from "./helping_hands_logo.png"
+import connective_logo from "./connective_logo.png"
+import jddr_logo from "./jddr_logo.png"
+import docubot_logo from "./docubot_logo.png"
+import bandmaker_logo from "./BandMaker_logo.jpg"
+import dreamweaver_logo from "./DreamWeaver_logo.png"
 import joseweb_thumbnail from "./joseweb_thumbnail.png"
-import beach_portrait from "./portrait_beach.jpg"
+import contact_portrait from "./contact_portrait.jpg"
 import gdms_logo from "./gdms_logo.jpg"
 
 import gradebuddy1 from "./projectpics/gradebuddy1.png"
@@ -47,7 +49,7 @@ import nutrifit8 from "./projectpics/nutrifit8.png";
 // Project pic arrays
 const gradebuddy = [gradebuddy1, gradebuddy2, gradebuddy3]
 
-const simplisplit = [ss_logo, simplisplit1]
+const simplisplit = [hh_logo, simplisplit1]
 
 const game = [game1, game2, game3]
 
@@ -65,13 +67,15 @@ export {
     justin_resume,
     appian,
     aipi,
-    uva_cs,
-    ss_logo,
-    pho_icon,
-    game_logo,
-    gradebuddy_logo,
+    jj_logo,
+    hh_logo,
+    jddr_logo,
+    connective_logo,
+    bandmaker_logo,
+    docubot_logo,
+    dreamweaver_logo,
     joseweb_thumbnail,
-    beach_portrait,
+    contact_portrait,
     gdms_logo,
     nutrifitLogo,
     gradebuddy,

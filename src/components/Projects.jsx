@@ -24,7 +24,7 @@ const Projects = () => {
         <h1
           className={`self-center pb-[1rem] font-bold text-center bg-gradient-to-r from-[#4d52ff] to-[#cf3dfd] text-transparent bg-clip-text`}
         >
-          Projects.
+          Projects
         </h1>
       </div>
       <div className="w-full mx-auto gap-20 justify-center flex flex-row flex-wrap px-10 max-w-[90rem]">

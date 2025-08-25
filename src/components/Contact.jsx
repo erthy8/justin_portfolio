@@ -12,7 +12,7 @@ import { SiVite } from "react-icons/si";
 import { BiLogoTailwindCss } from "react-icons/bi";
 
 
-import { beach_portrait } from "../assets";
+import { contact_portrait } from "../assets";
 
 const Contact = () => {
   return (
@@ -27,7 +27,7 @@ const Contact = () => {
       </h2>
       <div className="rounded-full overflow-hidden w-48 items-center border border-[#4d52ff] bg-indigo-500 shadow-lg shadow-indigo-500/50">
         <img
-          src={beach_portrait}
+          src={contact_portrait}
           className="object-contain scale-150 translate-y-4"
           draggable="false"
         />
@@ -38,16 +38,16 @@ const Contact = () => {
         whileInView={{ y: [-20, 0] }}
         transition={{ type: 'spring', stiffness: 115, damping:6, duration: 1 }}
       >
-        <a href="mailto:phongl.hoa@gmail.com" target="_blank" className="hover:cursor-pointer text-4xl hover:scale-125 hover:-translate-y-2 transition-transform duration-300" rel="noreferrer">
+        <a href="mailto:justinchen13001@gmail.com" target="_blank" className="hover:cursor-pointer text-4xl hover:scale-125 hover:-translate-y-2 transition-transform duration-300" rel="noreferrer">
           <MdEmail />
         </a>
-        <a href="https://www.instagram.com/phong.hle/?next=%2F&hl=en" target="_blank" className="hover:cursor-pointer text-4xl hover:scale-125 hover:-translate-y-2 transition-transform duration-300" rel="noreferrer">
+        <a href="https://www.instagram.com/justin.y.chen/?next=%2F&hl=en" target="_blank" className="hover:cursor-pointer text-4xl hover:scale-125 hover:-translate-y-2 transition-transform duration-300" rel="noreferrer">
           <FaInstagram />
         </a>
-        <a href="https://github.com/phongo1" target="_blank" className="hover:cursor-pointer text-4xl hover:scale-125 hover:-translate-y-2 transition-transform duration-300" rel="noreferrer">
+        <a href="https://github.com/erthy8" target="_blank" className="hover:cursor-pointer text-4xl hover:scale-125 hover:-translate-y-2 transition-transform duration-300" rel="noreferrer">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/phongle1x/" target="_blank" className="hover:cursor-pointer text-4xl hover:scale-125 hover:-translate-y-2 transition-transform duration-300" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/justin-jyc-chen/" target="_blank" className="hover:cursor-pointer text-4xl hover:scale-125 hover:-translate-y-2 transition-transform duration-300" rel="noreferrer">
           <FaLinkedin />
         </a>
       </motion.div>

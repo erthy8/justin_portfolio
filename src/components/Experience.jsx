@@ -64,7 +64,7 @@ const Experience = () => {
     <div className='mx-auto' id='experience' >
       <motion.div >
         <h1 className={`self-center font-bold text-center bg-gradient-to-r from-[#4d52ff] to-[#cf3dfd] text-transparent bg-clip-text`} >
-          Work Experience.
+          Work Experience
         </h1>
       </motion.div>
 
