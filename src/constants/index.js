@@ -52,17 +52,6 @@ const experiences = [
       "Designed and delivered programming curriculum to students concentrated in Python",
     ],
   },
-  // {
-  //   title: "Software Developer Intern",
-  //   company_name: "AiPi Solutions",
-  //   icon: assets.aipi,
-  //   iconBg: "#FFFF",
-  //   date: "Summer 2023",
-  //   points: [
-  //     "Led a team of 5 interns to train OpenAI’s 4o LLM, automating the editing process of Non-Disclosure Agreements",
-  //     "Built and deployed a web application using React and Vercel, allowing model integration into client’s workflow",
-  //   ],
-  // },
 ];
 
 const projects = [

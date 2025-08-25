@@ -4,7 +4,6 @@ import close from "./close.svg";
 import portrait from "./portrait.jpg"
 import justin_resume from "./Justin_Chen_Resume.pdf"
 import appian from "./appian_logo.png"
-import aipi from "./aipi_logo.png"
 import jj_logo from "./J&J_logo.png"
 import hh_logo from "./helping_hands_logo.png"
 import connective_logo from "./connective_logo.png"
@@ -12,7 +11,6 @@ import jddr_logo from "./jddr_logo.png"
 import docubot_logo from "./docubot_logo.png"
 import bandmaker_logo from "./BandMaker_logo.jpg"
 import ml_logo from "./ml_logo.png"
-import joseweb_thumbnail from "./joseweb_thumbnail.png"
 import contact_portrait from "./contact_portrait.jpg"
 import gdms_logo from "./gdms_logo.jpg"
 
@@ -59,7 +57,6 @@ export {
     portrait,
     justin_resume,
     appian,
-    aipi,
     jj_logo,
     hh_logo,
     jddr_logo,
@@ -67,7 +64,6 @@ export {
     bandmaker_logo,
     docubot_logo,
     ml_logo,
-    joseweb_thumbnail,
     contact_portrait,
     gdms_logo,
     docubot,
