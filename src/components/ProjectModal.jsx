@@ -112,6 +112,14 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
           >
             Website
           </a> : null}
+          {project.video ? <a
+            href={project.video}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#4d52ff] text-white p-2 mt-2 rounded hover:cursor-pointer hover:text-white"
+          >
+            Video
+          </a> : null}
         </div>
         <button
           onClick={onClose}

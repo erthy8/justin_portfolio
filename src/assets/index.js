@@ -20,11 +20,12 @@ import gradebuddy1 from "./projectpics/gradebuddy1.png"
 import gradebuddy2 from "./projectpics/gradebuddy2.png"
 import gradebuddy3 from "./projectpics/gradebuddy3.png"
 
-import simplisplit1 from "./projectpics/simplisplit1.png"
+import hh1 from "./projectpics/hh1.png"
 
-import game1 from "./projectpics/game1.png"
-import game2 from "./projectpics/game2.png"
-import game3 from "./projectpics/game3.png"
+import docubot1 from "./projectpics/docubot1.png"
+import docubot2 from "./projectpics/docubot2.png"
+import docubot3 from "./projectpics/docubot3.png"
+import docubot4 from "./projectpics/docubot4.png"
 
 import website1 from "./projectpics/website1.png"
 import website2 from "./projectpics/website2.png"
@@ -47,11 +48,11 @@ import nutrifit7 from "./projectpics/nutrifit7.png";
 import nutrifit8 from "./projectpics/nutrifit8.png";
 
 // Project pic arrays
+const docubot = [docubot1, docubot2, docubot3, docubot4]
+
 const gradebuddy = [gradebuddy1, gradebuddy2, gradebuddy3]
 
-const simplisplit = [hh_logo, simplisplit1]
-
-const game = [game1, game2, game3]
+const helpinghands = [hh_logo, hh1]
 
 const website = [website1, website2, website3, website4]
 
@@ -78,9 +79,9 @@ export {
     contact_portrait,
     gdms_logo,
     nutrifitLogo,
+    docubot,
     gradebuddy,
-    simplisplit,
-    game,
+    helpinghands,
     website,
     phobot,
     nutrifit,

@@ -72,11 +72,11 @@ const projects = [
     image: assets.docubot_logo,
     description:
       "An AI RAG agent based on a custom knowledge base that analyzes merge requests and automatically updates documentation",
-    photos: assets.gradebuddy,
+    photos: assets.docubot,
     bullets: [
-      "Dynamic question inputting (prompt, student-answer, max points, and rubric)",
-      "LLM scores each question based on given question rubric",
-      "Aggregates total score for an assignment after grading individual questions"
+      "Utilizes a custom knoewledge base built on thousands of documentation files using Amazon Kendra to provide context-aware suggestions",
+      "Integrates into GitLab CI/CD pipelines to analyze merge requests and propose documentation updates",
+      "Dynamically updates an AWS s3 bucket knowledge base when new documentation files are added",
     ],
     skills: [
       { name: "Python", color: "yellow" },
@@ -92,12 +92,11 @@ const projects = [
     image: assets.hh_logo,
     description:
       "A computer vision application that creates a virtual mouse through intuitive hand motion tracking.",
-    photos: assets.simplisplit,
+    photos: assets.helpinghands,
     bullets: [
-      "Utilized tesseract for receipt scanning (OCR)",
-      "React Native for front-end mobile development",
-      "Venmo API for payment processing",
-      "Firebase for user account database storage",
+      "Uses webcam input to track hand and finger positions for cursor movement and click actions",
+      "Calculates angles between finger joints to determine gestures for clicking and dragging",
+      "Engineered a smoothing filter to ensure stable cursor movement",
     ],
     skills: [
       { name: "OpenCV", color: "green" },
@@ -105,8 +104,8 @@ const projects = [
       { name: "MediaPipe", color: "violet" },
 
     ],
-    link: null,
-    video: "path/to/video1.mp4",
+    link: "https://github.com/justinc04/helping-hands",
+    video: "https://www.youtube.com/watch?v=fZa1yPhAmOk&ab_channel=Justin",
   },
   {
     name: "Just Dance Dance Revolution",
@@ -116,10 +115,10 @@ const projects = [
       "Display a precisely generated dance overlay from a YouTube dance video to help users learn how to dance with accuracy ratings and real-time analysis.",
     photos: assets.nutrifit,
     bullets: [
-      "Allows users to select goals like bulking, cutting, keto, or diabetic and recommends products accordingly",
-      "Integrates Kroger's Product API to fetch grocery items and Nutritionix API to retrieve detailed nutritional data",
-      "Implements a custom Nutrition Rating algorithm to rank products based on user goals",
-      "Enables users to save selected items for later comparison and planning",
+      "Utilized frame-by-frame computer vision analysis on YouTube videos retrieved from Google API to extract key body positions stored as landmark coordinates into data frames",
+      "Stores and queries dance move data using SQL to efficiently retrieve and compare user movements",
+      "Attempts to use YOLO AI built model to create a bounding box around user to improve accuracy",
+      "Performs linear regression analysis on SQL database to produce accuracy ratings for user dance moves",
     ],
     skills: [
       { name: "cv2", color: "cyan" },
@@ -140,10 +139,12 @@ const projects = [
       "A social media website to connect students enrolled in the same class with each other to share resources and ask questions.",
     photos: assets.phobot,
     bullets: [
-      "Built with Discord API, Riot API, googlesearch API, and BeautifulSoup for webscraping",
+      "Built with Selenium webscraping to automatically populate class lists from university website",
+      "Uses Flask backend with SQL database to store user data and posts",
+      "Incorporates HTML/CSS/JS and React frontend for a responsive and user-friendly interface",
     ],
     skills: [
-      { name: "HTML/CSS", color: "cyan" },,
+      { name: "HTML/CSS", color: "cyan" },
       { name: "Javascript", color: "yellow" },
       { name: "Flask", color: "blue" },
       { name: "React.js", color: "orange" },
@@ -158,8 +159,12 @@ const projects = [
     image: assets.bandmaker_logo,
     description:
       "A commissioned program displayed on a Discord bot that leverages AI, pattern recognition algorithms, and SQL database querying, to perform comprehensive analysis on stock market data",
-    photos: assets.game,
-    bullets: ['Final project for CS 1110 (Intro to Programming)'],
+    photos: assets.docubot,
+    bullets: [
+      "Discord bot built with Python and Discord API to interact with users and provide real-time stock analysis",
+      "Pinged users on significant stock movements using AI sentiment analysis and pattern recognition algorithms",
+      "Displayed analysis results using data visualiztions with PyPlot",
+    ],
     skills: [
       { name: "Python", color: "yellow" },
       { name: "SQL", color: "green" },
@@ -171,13 +176,15 @@ const projects = [
     video: "https://www.youtube.com/watch?v=FLIzubXNmyo&ab_channel=PhongLe",
   },
   {
-    name: "Dream Weaver",
-    type:  { name: "Web Application", color: "blue-400" },
+    name: "Color Detection Program",
+    type:  { name: "Machine Learning Program", color: "blue-400" },
     image: assets.dreamweaver_logo,
     description:
       "TBD",
     photos: assets.website,
-    bullets: [ 'A simple website to showcase the book and author - built with HTML/CSS/JS and deployed with Github Pages' ],
+    bullets: [ 
+      "TBD",
+    ],
     skills: [
       { name: "HTML/CSS", color: "cyan" },
       { name: "Javascript", color: "yellow" },
