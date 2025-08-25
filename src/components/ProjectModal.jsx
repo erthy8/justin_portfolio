@@ -65,6 +65,13 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
         <h2 className="text-xl font-bold text-black mb-4 text-center">
           {project.name}
         </h2>
+        {project.award && (
+          <div className="text-center mb-4">
+            <span className="inline-block bg-yellow-400 text-black px-3 py-1 rounded-full text-sm font-semibold">
+              🏆 {project.award}
+            </span>
+          </div>
+        )}
         <div className="slider-container my-6 px-4 flex justify-center">
           <Slider {...settings} className=" w-[30rem] h-[20rem] p-0">
             {project.photos.map((photo, index) => (

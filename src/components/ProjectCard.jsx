@@ -15,6 +15,13 @@ const ProjectCard = ({ project }) => {
             {project.type.name}
           </i>
           <h3 className="text-lg font-semibold mb-2 -mt-1 text-white">{project.name}</h3>
+          {project.award && (
+            <div className="mb-2">
+              <span className="inline-block bg-yellow-400 text-black px-2 py-1 rounded-full text-xs font-semibold">
+                🏆 {project.award}
+              </span>
+            </div>
+          )}
         </div>
         <p className="text-[.8rem] text-white">{project.description}</p>
 
