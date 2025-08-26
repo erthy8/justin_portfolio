@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, icon, icon_white } from "../assets";
 
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { motion, AnimatePresence, useAnimation } from "framer-motion";
@@ -100,7 +100,7 @@ const Navbar = ({ isLoading }) => {
           }}
         >
           <img
-            src={logo}
+            src={icon_white}
             alt="logo"
             className="rounded-full w-[2.5rem] h-[2.5rem] object-contain mr-2"
             draggable="false"

@@ -1,4 +1,6 @@
 import logo from "./logo.png";
+import icon_white from "./icon-white.svg";
+import icon from "./icon.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import portrait from "./portrait.jpg"
@@ -35,7 +37,6 @@ import connective3 from "./projectpics/connective3.png"
 import ml1 from "./projectpics/ml1.png"
 import ml2 from "./projectpics/ml2.png"
 
-
 // Project pic arrays
 const docubot = [docubot1, docubot2, docubot3, docubot4]
 
@@ -49,8 +50,9 @@ const connective = [connective1, connective2, connective3]
 
 const ml = [ml1, ml2]
 
-
 export {
+    icon,
+    icon_white,
     logo,
     menu,
     close,
