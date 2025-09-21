@@ -59,7 +59,7 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
       onClick={onClose}
     >
       <div
-        className="bg-white py-4 px-9 rounded-lg mx-auto max-w-4xl z-[999] absolute top-[4.5rem] border border-black w-[90%] sm:w-[20rem] md:w-[30rem] lg:w-[50rem] overflow-auto"
+        className="bg-white py-4 px-4 sm:px-6 md:px-9 rounded-lg mx-auto z-[999] absolute top-[2rem] sm:top-[4.5rem] border border-black w-[95%] sm:w-[85%] md:w-[70%] lg:w-[60%] xl:w-[50%] max-w-4xl max-h-[90vh] overflow-auto"
         onClick={handleContentClick} // Prevents modal close when clicking on the content
       >
         <h2 className="text-xl font-bold text-black mb-4 text-center">
@@ -72,12 +72,12 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
             </span>
           </div>
         )}
-        <div className="slider-container my-6 px-4 flex justify-center">
-          <Slider {...settings} className=" w-[30rem] h-[20rem] p-0">
+        <div className="slider-container my-6 px-2 sm:px-4 flex justify-center">
+          <Slider {...settings} className="w-full max-w-[20rem] sm:max-w-[25rem] md:max-w-[30rem] lg:max-w-[35rem] h-[12rem] sm:h-[16rem] md:h-[20rem] p-0">
             {project.photos.map((photo, index) => (
               <div
                 key={index}
-                className="overflow-hidden w-[30rem] h-[20rem] flex justify-center items-center"
+                className="overflow-hidden w-full h-[12rem] sm:h-[16rem] md:h-[20rem] flex justify-center items-center"
               >
                 <img
                   src={photo}
