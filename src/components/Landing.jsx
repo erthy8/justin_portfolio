@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import Typewriter from "typewriter-effect";
 import { motion, useAnimation } from "framer-motion";
 import Spline from "@splinetool/react-spline";
@@ -7,13 +7,27 @@ import { styles } from "../styles";
 
 const Landing = ({ isLoading }) => {
   const controls = useAnimation();
+  const containerRef = useRef(null);
 
   useEffect(() => {
     if (!isLoading) {
       controls.start({ opacity: 1, transition: { duration: 1.25 } });
     }
   }, [isLoading, controls]);
-  
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    const handleWheel = (e) => {
+      e.stopPropagation();
+    };
+
+    container.addEventListener("wheel", handleWheel, { capture: true });
+    return () => {
+      container.removeEventListener("wheel", handleWheel, { capture: true });
+    };
+  }, []);
 
   return (
     <section
@@ -43,6 +57,7 @@ const Landing = ({ isLoading }) => {
       )}
 
       <motion.div
+        ref={containerRef}
         className={`w-[45rem] h-[25rem] relative overflow-visible flex align-middle justify-center md:left-28 hover:cursor-grabbing`}
         initial= {{ opacity: 0 }}
         animate={controls}

@@ -7,7 +7,6 @@
   line-height: 1.5;
   font-weight: 400;
   scroll-behavior: smooth;
-  overscroll-behavior: none;
   color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
   width: 100%;
@@ -19,7 +18,6 @@
 }
 
 html, body {
-  overscroll-behavior: none;
 }
 
 
@@ -49,8 +47,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
