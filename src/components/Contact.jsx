@@ -32,6 +32,7 @@ const Contact = () => {
           draggable="false"
         />
       </div>
+      <p className="text-indigo-200 text-sm font-medium mt-1">me and my gf! {"<3"}</p>
 
       <motion.div className="flex gap-[3rem] flex-wrap py-5"
         initial={{ y:0 }}

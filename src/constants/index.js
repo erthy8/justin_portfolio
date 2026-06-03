@@ -22,6 +22,29 @@ export const navLinks = [
 const experiences = [
   {
     title: "Software Engineer Intern",
+    company_name: "Amazon",
+    icon: assets.amazon,
+    iconBg: "white",
+    date: "Summer 2026",
+    points: [
+      "Designed and implemented an end-to-end, in-route search feature for Amazon Smart Vehicles (BMW integration)",
+      "Scaled Alexa+ LLM capabilities by redesigning API schemas and instruction prompts, achieving a ≥ 95% accuracy rate in inferring user intent during natural language processing.",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Polar Dream Travel",
+    icon: assets.pdt,
+    iconBg: "white",
+    iconWidth: "70%",
+    iconHeight: "70%",
+    date: "Summer 2026",
+    points: [
+      "Architected and deployed the technical infrastructure for a boutique travel agency managing $400k+ annual revenue",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
     company_name: "Appian",
     icon: assets.appian,
     iconBg: "white",

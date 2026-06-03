@@ -6,7 +6,9 @@ import close from "./close.svg";
 import portrait from "./portrait.jpg"
 import justin_resume from "./Justin_Chen_Resume.pdf"
 import appian from "./appian_logo.png"
-import jj_logo from "./J&J_logo.png"
+import amazon from "./amazon_logo.png"
+import pdt from "./pdt_logo.png"
+import jj_logo from "./J&J_logo.jpeg"
 import hh_logo from "./helping_hands_logo.png"
 import connective_logo from "./connective_logo.png"
 import jddr_logo from "./jddr_logo.png"
@@ -14,7 +16,7 @@ import docubot_logo from "./docubot_logo.png"
 import bandmaker_logo from "./BandMaker_logo.jpg"
 import ml_logo from "./ml_logo.png"
 import contact_portrait from "./contact_portrait.jpg"
-import gdms_logo from "./gdms_logo.jpg"
+import gdms_logo from "./gdms_logo.jpeg"
 
 import docubot1 from "./projectpics/docubot1.png"
 import docubot2 from "./projectpics/docubot2.png"
@@ -59,6 +61,8 @@ export {
     portrait,
     justin_resume,
     appian,
+    amazon,
+    pdt,
     jj_logo,
     hh_logo,
     jddr_logo,

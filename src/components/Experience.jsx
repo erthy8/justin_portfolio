@@ -28,7 +28,11 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
+            style={{
+              width: experience.iconWidth || '80%',
+              height: experience.iconHeight || '80%',
+            }}
+            className={`object-contain ${experience.company_name === 'Polar Dream Travel' ? 'translate-y-1' : ''}`}
             draggable="false"
           />
         </div>
